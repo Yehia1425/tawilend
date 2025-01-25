@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.0.0/dist/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="dist/output.css">
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.0.0/dist/flowbite.min.css" rel="stylesheet" />
+
+</head>
+<body>
+<nav class="flex items-center justify-between p-4 shadow-lg transition-all duration-300">
+    <div class=" text-xl font-bold text-gray-900 dark:text-white">
+        <img src="/src/images/asset 0.png" alt="asset">
+    </div>
+    <ul class="flex space-x-6">
+        <li>
+            <a href="#" class="text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-green-600 font-bold transition-colors"> Home </a>
+        </li>
+        <li>
+            <a href="#" class="text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-green-600 font-bold transition-colors">  About  </a>
+        </li>
+        <li>
+            <a href="#" class="text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-green-600 font-bold transition-colors">  Contact  </a>
+        </li>
+    </ul>
+    <div class="relative inline-block w-10 mr-2 align-middle select-none transition duration-200 ease-in">
+        <input type="checkbox" name="toggle" id="toggle" class="toggle-checkbox absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer"/>
+        <label for="toggle" class="toggle-label block overflow-hidden h-6 rounded-full bg-gray-300 cursor-pointer"></label>
+    </div>
+</nav>
+
+
+<div id="controls-carousel" class="relative w-full" data-carousel="static">
+    <!-- Carousel wrapper -->
+    <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+         <!-- Item 1 -->
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="/src/images/fabian-irsara-67l-QujB14w-unsplash.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="/src/images/ales-nesetril-Im7lZjxeLhg-unsplash-EFNYJM67.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="/src/images/testtwo.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+        </div>
+    </div>
+    <!-- Slider controls -->
+    <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+            </svg>
+            <span class="sr-only">Previous</span>
+        </span>
+    </button>
+    <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+            </svg>
+            <span class="sr-only">Next</span>
+        </span>
+    </button>
+</div>
+
+
+<section class="py-5 text-center dark:bg-gray-950 dark:text-gray-100 dark:border-gray-100>
+    <div class="contanier mx-auto"> 
+        <div class="main-title pb-10 ">
+            <h2 class="text-[48px]">Tools</h2>
+            <p>Lorem ipsum dolor sit amet consectetur !</p>
+        </div>
+            <div class="grid gap-10 md:grid-cols-3 mb-36 px-16 ">
+                <div class="card relative bg-white rounded-md border border-black py-8 px-6 text-center text-black p-2 ">
+                    <span class="flex items-center mx-auto justify-center size-10 bg-red-200 rounded-full absolute start-1/2 top-0 -translate-x-1/2 -translate-y-1/2">
+                        <i class="fa-solid fa-anchor-circle-exclamation"></i>
+                    </span>
+                    <h3 class="text-2xl">Product</h3>
+                    <div class="h-px w-10 bg-dark my-2 mx-auto bg-black"></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                </div>
+                <div class="card relative bg-white rounded-md border border-black py-8 px-6 text-center text-black ">
+                    <span class="flex items-center mx-auto justify-center size-10 bg-red-200 rounded-full absolute start-1/2 top-0 -translate-x-1/2 -translate-y-1/2">
+                        <i class="fa-solid fa-h-square"></i>
+                    </span>
+                    <h3 class="text-2xl">Product</h3>
+                    <div class="h-px w-10 bg-dark my-2 mx-auto bg-black"></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                </div>
+                <div class="card relative bg-white rounded-md border border-black py-8 px-6 text-center text-black ">
+                    <span class="flex items-center mx-auto justify-center size-10 bg-red-200 rounded-full absolute start-1/2 top-0 -translate-x-1/2 -translate-y-1/2">
+                        <i class="fa-solid fa-jar-wheat"></i>
+                    </span>
+                    <h3 class="text-2xl">Product</h3>
+                    <div class="h-px w-10 bg-dark my-2 mx-auto bg-black"></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                </div>
+                <div class="card relative bg-white rounded-md border border-black py-8 px-6 text-center text-black ">
+                    <span class="flex items-center mx-auto justify-center size-10 bg-red-200 rounded-full absolute start-1/2 top-0 -translate-x-1/2 -translate-y-1/2">
+                        <i class="fa-solid fa-ladder-water"></i>
+                    </span>
+                    <h3 class="text-2xl">Product</h3>
+                    <div class="h-px w-10 bg-dark my-2 mx-auto bg-black"></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                </div>
+                <div class="card relative bg-white rounded-md border border-black py-8 px-6 text-center text-black ">
+                    <span class="flex items-center mx-auto justify-center size-10 bg-red-200 rounded-full absolute start-1/2 top-0 -translate-x-1/2 -translate-y-1/2">
+                        <i class="fa-solid fa-icicles"></i>
+                    </span>
+                    <h3 class="text-2xl">Product</h3>
+                    <div class="h-px w-10 bg-dark my-2 mx-auto bg-black"></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                </div>
+                <div class="card relative bg-white rounded-md border border-black py-8 px-6 text-center text-black ">
+                    <span class="flex items-center mx-auto justify-center size-10 bg-red-200 rounded-full absolute start-1/2 top-0 -translate-x-1/2 -translate-y-1/2">
+                        <i class="fa-solid fa-wrench"></i>
+                    </span>
+                    <h3 class="text-2xl">Product</h3>
+                    <div class="h-px w-10 bg-dark my-2 mx-auto bg-black"></div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                </div>
+            </div>
+        </div>
+
+</section>
+
+
+<footer class="bg-[#212529]">
+    <div class=" text-white text-center flex justify-between items-center py-20 px-25">
+        <div>
+            <img src="images/asset 18.png" alt="">
+        </div>
+        <div>
+            <i class="fa-brands px-2 fa-facebook cursor-pointer"></i>
+            <i class="fa-brands px-2 fa-twitter cursor-pointer"></i>
+            <i class="fa-brands px-2 fa-linkedin cursor-pointer"></i>
+            <i class="fa-brands px-2 fa-youtube cursor-pointer"></i>
+        </div>
+    </div>
+
+</footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/flowbite@3.0.0/dist/flowbite.min.js"></script>
+<script src="js/main.js" ></script>
+</body>
+</html>
